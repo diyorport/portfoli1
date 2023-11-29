@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Robot:300,400,500,700,900&display=swap');
+
+.box_1 {
+background-color: white;
+height: 700px;
+max-width: 1000px;
+margin: 0 auto;
+-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.44);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.44);
+box-shadow: 4px 4px 8px 0px rgba(199, 228, 251, 0.44);
+}
+
+
+* {
+/* color: black; */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Robot', sans-serif;
+}
+
+
+.imagesr img{
+width: 250px;
+}
+
+
+.imagesr {
+
+margin-top: 100px;
+padding-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.info {
+    color: black;
+margin-top: 70px;
+text-align: center;
+font-size: 50px;
+}
+
+.html__tex {
+color: black;
+margin: 30px auto;
+text-align: center;
+max-width: 1000px;
+line-height: 2;
+}
+
+.aa{
+    color:black;
+    border: 2px solid red;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.aa:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+/*=================================================================== media===================================================== */
+@media (max-width:1000px){
+    .box_1{
+        margin-top: -100px;
+        height: 795px;
+    }
+}
+
+
+@media (max-width:800px){
+.html__tex{
+    line-height: 1.5;
+}
+
+.info{
+    font-size: 45px;
+}
+}
+
+@media (max-width:650px){
+.container{
+    height: 650px;
+}
+}
+
+@media (max-width:562px){
+
+    .html__tex{
+        max-width: 562px;
+    }
+
+    .imagesr img{
+        width: 200px;
+    }
+}
+
+@media (max-width:434px){
+    .html__tex{
+        max-width: 434px;
+        text-align: center;
+    }
+
+
+}
+
